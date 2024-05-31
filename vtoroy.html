@@ -1,0 +1,222 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<style>
+body{
+	background:#EEBA41;}
+.main{
+	background:#B0002B;
+	width:1300px;
+	height:90px;
+	margin:auto;}
+h1{
+	font-size:80px;
+	color:#EBEAF0;
+	font-family:Wadik;}
+h2{
+	color:#EBEAF0;
+	font-size:30px;
+	font-family:Wadik;
+	background:#B0002B;}
+h3{
+	color:#000000;
+	font-size:30px;
+	font-family:Cruinn;
+	text-align:left;
+	padding-left:20px;}
+h4{
+	color:#000000;
+	font-size:15px;
+	font-family:Cruinn;
+	text-align:left;
+	padding-left:20px;}
+p{
+	font-size:15px;
+	font-family:Arx Cyr;
+	color:#000000;}
+.button{
+	width:300px;
+	background:#B0002B;
+	color:#EBEAF0;
+	padding:5px;
+	border:3px solid #B0002B;
+	border-radius:5px;
+	font-family:Cruinn;
+	font-size:30px;
+	text-align:center;
+	margin:5px;}
+table{
+	background:#EBEAF0;
+	padding:20px;
+	margin:20;}
+a{
+	text-decoration:none;
+	color:#FFFFFF;}
+a2{
+	text-decoration:none;
+	color:#FFFFFF;}
+	.auto-slayder{
+	pozition:relative;
+	width:1200px;
+	margin:50px auto;}
+#slaid1:checked~.slayder label[for="slaid1"]
+{background:#FFFFFF;}
+#slaid2:checked~.slayder label[for="slaid2"]
+{background:#FFFFFF;}
+#slaid3:checked~.slayder label[for="slaid3"]
+{background:#FFFFFF;}
+.auto-slayder{
+	overflow:hidden;}
+.slayder{
+	display:flex;
+	width:100%;
+	transition: all 0.5s;}
+.slayder- img {
+	width:100%;
+	flex-shrink:0;}
+#slaid1:checked~auto-slayder slayder{
+transform:translate(0);}
+#slaid2:checked~.auto-slayder .slayder{
+transform:translateX(-100%);}
+#slaid3:checked~.auto-slayder .slayder{
+transform:translateX(-200%);}
+</style>
+</head>
+<body>
+<h4><a href=file:///E:/Arina/autorskiy.html>На главную</h4>
+<tr>
+	<th><button class="button"><a href="#first">Необходимое оборудование</button><br/></th>
+</tr>
+<tr>
+	<th><button class="button"><a href="#second">Удобства</button><br/></th>
+</tr>
+<tr>
+	<th><button class="button"><a href="#third">Зоны отдыха</button></th>
+</tr>
+<div class="main">
+<center>
+<h1>материальная база</h1>
+</center>
+<center>
+<div class="auto-slayder">
+	<input type="radio" name="choice" id="slaid1"checked>
+	<input type="radio" name="choice" id="slaid2">
+	<input type="radio" name="choice" id="slaid3">
+	<div class="choice">
+	<label for="slaid1"></label>
+	<label for="slaid2"></label>
+	<label for="slaid3"></label>
+	</div>
+	<div class="auto-slayder">
+	<div class="slayder">
+	<img src="img2/150.png" style="width:100%">
+	<img src="img2/97.jpg" style="width:100%">
+	<img src="img2/102.jpg" style="width:100%">
+	</div>
+	</div>
+</div>
+<center>
+	<tr>
+		<th>
+			<img src="img2/20.png" width="1200" >
+		</th>
+	</tr>
+	<tr>
+		<center>
+		<h2 id="first">Необходимое оборудование</h2>
+		</center>
+<table border="0">
+	<tr>
+		<th>
+			<img src="img2/50.png" width="400" height="400">
+		</th>
+		<th>
+			<h3>Должное оборудование позволит проводить опыты на уроках химии и физики, благодаря чему ученики будут больше заинтересованны в этих предметах и в учебе в целом.</h3>
+		</th>
+	</tr>
+	<tr>
+		<th>
+			<img src="img2/35.png" width="400" height="400">
+		</th>
+		<th>
+			<h3>Отсутствие достаточного количества раковин в нашей школе - большое неудобство для всех.Оснащение школы достаточным количеством раковин как в туалетах, так и у столовой, а так же постоянная проверка количества мыла в дозаторах - это необходимость</h3>
+		</th>
+	</tr>
+	<tr>
+		<th>
+			<img src="img2/36.png" width="400" height="400">
+		</th>
+		<th>
+			<h3>Большим неудобством является нехватка мест для хранения. Гардиробные отсутствуют, и каждый ученик оставляет свои вещи в классе, что крайне неудобно. Шкафчики в коридоре для каждого школьника - это целый ряд удобств: у ученика будет свое личное пространство для его вещей, а также ему  не придется носить сменку и прочие вещи в школу и обратно, он их не забудет, и все нужное всегда будет в личном шкафчике.</h3>
+		</th>
+	</tr>
+</table>
+<tr>
+		<center>
+		<h2 id="second">Удобства</h2>
+		</center>
+<table border="0">
+	<tr>
+		<th>
+			<img src="img2/38.png" width="380" height="380">
+		</th>
+		<th>
+			<h3>Большая библиотека и читательский зал в школе освобождают учеников от необходимости бегать по городу в поисках нужной книги для школьной программы. Благодаря библиотеке каждый сможет найти необходимую книгу и прочитать ее в спокойной обстановке прямо не выходя из школы. У учеников появится мотивация читать, что сократит в разы их экранное время.</h3>
+		</th>
+	</tr>
+	<tr>
+		<th>
+			<img src="img2/51.png" width="400" height="400">
+		</th>
+		<th>
+			<h3>Во время учебной деятельности ученикам часто хочется есть. Однако это настоящая проблема: в столовой всегда большие очереди, и иногда дети вынуждены провести всю перемену в ожидании своей очереди, и все равно опаздать на урок. Небольшой буфет на каждом этаже поможет избавиться от этих сложностей, и купить чего-нибудь вкусного будет гораздо легче.</h3>
+		</th>
+	</tr>
+	<tr>
+		<th>
+			<img src="img2/52.png" width="400" height="400">
+		</th>
+		<th>
+			<h3>Еще один способ избавить учеников от вечного стояния в очередях - создание шведской линии в столовой. Дети смогут сами выбирать, что они хотят есть, и не придется пробиваться сквозь толпу людей для того, чтобы отдать деньги продавщице.</h3>
+		</th>
+	</tr>
+		<tr>
+		<th>
+			<img src="img2/53.png" width="400" height="400">
+		</th>
+		<th>
+			<h3>Автомат со снеками - очень быстрый и простой вариант небольшого перекуса. Если ученик не хочет полноценно покушать, это прекрасный вариант.</h3>
+		</th>
+	</tr>
+</table>
+<tr>
+		<center>
+		<h2 id="third">Зоны отдыха</h2>
+		</center>
+<table border="0">
+	<tr>
+		<th>
+			<img src="img2/40.png" width="380" height="380">
+		</th>
+		<th>
+			<h3>Обогащение школы разнообразной растительностью - это не только элемент декора. Наличие живой природы создает уютную обстановку и снимает стресс, успокаивает нервы, направляет мысли в нужное русло.</h3>
+		</th>
+	</tr>
+	<tr>
+		<th>
+			<img src="img2/41.png" width="400" height="400">
+		</th>
+		<th>
+			<h3>Для того, чтобы на протяжении дня мышление не рассеивалось и ученики были сфокусированны на учебе, необходимо делать перерывы и расслабляться. Лучший отдых - это отдых на улице. А чтобы каждый смог на перемене выйти на улицу и отдохнуть между уроками, нужно расставить лавочки вокруг школы.</h3>
+		</th>
+	</tr>
+	<tr>
+		<th>
+			<img src="img2/42.png" width="400" height="400">
+		</th>
+		<th>
+			<h3>Не всегда получается выйти на улицу, поэтому хоны отдыха должны бать и в школе. Здесь ученики могут повторить задание на дом, поситать книгу из библиотеки или просто расслабиться, и настроиться на следующий урок.</h3>
+		</th>
+	</tr>
+</table>
